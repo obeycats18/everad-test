@@ -57,8 +57,9 @@ function _cleanDist () {
 function _build() {
     return src([
         'src/css/**/*.min.css',
-        'src/js/**/*.min.css',
-        'src/images/dist/**/*',
+        'src/js/**/*.min.js',
+        'src/images/**/*',
+        'src/fonts/**/*',
         'src/**/*.html',
     ], {base: 'src'})
     .pipe(dest('dist'))

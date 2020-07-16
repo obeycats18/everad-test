@@ -4,30 +4,184 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.min.css">
-    <title>TFTL</title>
+    <title>Everad</title>
 </head>
 <body class="main">
-    
-    <div class="top-line">
-        <a href="/" class="logotype">Logo Logo</a>
-        <nav class="navbar">
-            <a href="#" class="navbar-item">Commercial</a>
-            <a href="#" class="navbar-item">Editorial</a>
-            <a href="#" class="navbar-item">Reportage</a>
-            <a href="#" class="navbar-item">Meet me</a>
-        </nav>
-    </div>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="header-left">
+                    <img class="header-left__image" src="./images/images/header_image.png" alt="">
+                    <a href="/" class="header-logo">
+                        <img class="header-logo__image" src="./images/icons/i_logo.svg" alt="">
+                        Микоцин
+                    </a>    
+                </div>
+                <div class="header-right">
+                    <div class="header-right__advantages">
+                        <div class="advantages-item">
+                            <img src="./images/icons/i_pills.svg" alt="Pills" class="advantages-item__image">
+                            <p class="advantages-item__text">№1 Для избавления от любого типа грибка</p>
+                        </div>
+                        <div class="advantages-item">
+                            <img src="./images/icons/i_peoples.svg" alt="Peoples" class="advantages-item__image">
+                            <p class="advantages-item__text">Рекомендован дерматологами</p>
+                        </div>
+                        <div class="advantages-item">
+                            <img src="./images/icons/i_recomendation.svg" alt="Recomendations" class="advantages-item__image">
+                            <p class="advantages-item__text">13000+ довольных клиентов за 2018 год</p>
+                        </div>
+                    </div>
+                    <div class="header-right__promo">
+                        <div class="header-right__promo-text">
+                            <h1 class="header-promo__title">
+                                Комплексное избавление от грибка —
+                                <span class="title-span title-span_red">изнутри</span> и 
+                                <span class="title-span title-span_green">снаружи</span> 
+                            </h1>
+                            <div class="promo-recipe">
+                                <div class="recipe-item">
+                                    <div class="recipe-item__count"> <p>2в1</p> </div>
+                                    <div class="recipe-item__text"> <p>Комплекс Микоцин <b>устраняет зуд, неприятный запах</b> и возвращает эстетический вид</p></div>
+                                </div>
+                                <div class="recipe-item">
+                                    <div class="recipe-item__count"><p>1</p></div>
+                                    <div class="recipe-item__text"> 
+                                        <p> 
+                                            <span class="recipe-item__span recipe-item__span_red"><b>Таблетки</b></span> Микоцин <b>уничтожают все виды грибка</b> на ногтях и коже 
+                                        </p> 
+                                    </div>
+                                </div>
+                                <div class="recipe-item">
+                                    <div class="recipe-item__count"><p>2</p></div>
+                                    <div class="recipe-item__text"> 
+                                        <p>
+                                            <span class="recipe-item__span recipe-item__span_green"> <b>Гель</b> </span> Микоцин <b> восстанавливает кожу</b> и создает на ней <b>защитный барьер</b>
+                                        </p> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-right__promo-form">
+                            <div class="promo-form">
+                                <div class="promo-form__delivery">
+                                    <img src="./images/icons/i_delivery.svg" alt="Delivery">
+                                    <p>Бесплатно</p>
+                                </div>
+                                <h3 class="promo-form__title">
+                                    Успейте заказать <br> со скидкой <span class="title-deadline"> <br> до 10.09.2018</span>
+                                </h3>
+                                <div class="promo-form__cost">
+                                    <div class="old-cost">
+                                        <p class="cost-title cost-title_old">старая цена</p>
+                                        <span class="cost-label cost-label_old">918 &#8381;</span>
+                                    </div>
+                                    <div class="new-cost">
+                                        <p class="cost-title cost-title_new">новая цена</p>
+                                        <span class="cost-label cost-label_new">459 &#8381;</span>
+                                    </div>
+                                </div>
+                                <form class="promo-form__form" action="#" method="post">
 
-    <main class="slider-container">
-        <div class="slider-images">
-            <div class="slider-item slider-item_left"></div> 
-            <div class="slider-item slider-item_active"></div>
-            <div class="slider-item slider-item_right"></div>
+                                    <div class="input-container">
+                                        <span class="input-container_icon">
+                                            <img src="./images/icons/i_user.svg" alt="">
+                                        </span>
+                                        <input type="text" name="name" placeholder="Имя" required>
+                                    </div>
+                                    <div class="input-container">
+                                        <span class="input-container_icon">
+                                            <img src="./images/icons/i_phone.svg" alt="">
+                                        </span>
+                                        <input type="tel" name="phone" placeholder="Телефон" required>
+                                    </div>
+                                    <div class="">
+                                        <button class="btn"><span>Заказать</span><br> со скидкой</button>
+                                    </div>
+                                </form>
+                                <h4 class="promo-form__ps">Осталось <span>10</span> упаковок <br> со скидкой</h4>
+                                
+                            </div>
+                            <div class="promo-form__security">
+                                <img src="./images/icons/i_security.svg" alt="Security">
+                                <p>Ваши данные защищены!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="slider-text">
-            <h1 class="slider-item-text">Ink Lingerie</h1>
-            <h1 class="slider-item-text slider-item-text_active">Ink Lingerie</h1>
-            <h1 class="slider-item-text">Ink Lingerie</h1>
+    </header>
+
+    <main class="section-info">
+        <div class="container">
+            <div class="row r-jc__center">
+                <img class="section-logo__image" src="./images/icons/i_logo.svg" alt="">
+            </div>
+            <div class="section-name">
+                <h2 class="section-name__title">Грибок – это опасная инфекция</h2>
+                <h3 class="section-name__description">которая угрожает вам и вашим близким, ведь с каждым днем грибок приводит к:</h3>
+            </div>
+
+            <div class="problems-container">
+                <div class="problem-item">
+                    <div class="row r-ai__center">
+                        <div class="problem-item__image" style="background-image: url(./images/images/problem-1.png);">
+                            <div class="problem-item__line">
+                                <svg width="179" height="120" viewBox="0 0 179 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M175.681 38.963C108.681 -34.0371 -4.81841 18.963 5.68021 118.963" stroke="#EC9A6A" stroke-width="9"/>
+                                </svg>                                        
+                            </div>
+                            <span class="problem-item__number problem-item__number_low">1</span>
+                        </div>
+                        <h4 class="problem-item__title">Сложным <br> формам <br> аллергии</h4>
+                    </div>
+                    <div class="problem-item__description">
+                        <p>Может появится сильная реакция <br> на на привычную пищу, одежду,<br> средства гигиены</p>
+                    </div>
+                </div>
+                <div class="problem-item">
+                    <div class="row r-ai__center">
+                        <div class="problem-item__image" style="background-image: url(./images/images/problem-2.png);">
+                            <div class="problem-item__line">
+                                <svg width="179" height="120" viewBox="0 0 179 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M175.681 38.963C108.681 -34.0371 -4.81841 18.963 5.68021 118.963" stroke="#E47643" stroke-width="9"/>
+                                </svg>                                        
+                            </div>
+                            <span class="problem-item__number problem-item__number_medium">2</span>
+                        </div>
+                        <h4 class="problem-item__title">Потере ногтя <br> и ампутации <br> пальца</h4>
+                    </div>
+                    <div class="problem-item__description">
+                        <p>После полного разрушения ногтя <br> грибок распространяется на палец, <br> что приводит к его ампутации</p>
+                    </div>
+                </div>
+                <div class="problem-item">
+                    <div class="row r-ai__center">
+                        <div class="problem-item__image" style="background-image: url(./images/images/problem-3.png);">
+                            <div class="problem-item__line">
+                                <svg width="179" height="120" viewBox="0 0 179 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M175.681 38.963C108.681 -34.0371 -4.81841 18.963 5.68021 118.963" stroke="#EC5B19" stroke-width="9"/>
+                                </svg>                                        
+                            </div>
+                            <span class="problem-item__number problem-item__number_strong">3</span>
+                        </div>
+                        <h4 class="problem-item__title">Тяжелому <br> поражению <br> внутренних <br> органов</h4>
+                    </div>
+                    <div class="problem-item__description">
+                        <p>Может привести к повреждениям <br> мозга, слепоте, отказу печени, почек <br> и сердца</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="statistics-container">
+                <div class="statistics-icon">
+                    <img src="./images/icons/i_statistics.svg" alt="Statistics">
+                </div>
+                <p class="statistics-text">
+                    <b>Статистика:</b> каждые 60 секунд врачи диагностируют опасные пораже
+                </p>
+            </div>
         </div>
     </main>
 

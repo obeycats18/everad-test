@@ -1,0 +1,229 @@
+@media screen and (max-width: 1024px){
+    .header{
+        background-color: #F3F9FF;
+        background-image: none;
+        max-height: 100%;
+        &::before{
+            background-image: none;
+        }
+        .header-left {
+            display: none;
+        }
+        .header-right {
+            margin: 0;
+            
+            .header-right__advantages{
+                align-items: center;
+                padding-bottom: 40px;
+                .advantages-item{
+                    text-align: center;
+                    &__image{
+                        display: none;
+                    }
+                    &__text{
+                        font-size: 11px;
+                        padding: 0;
+                    }
+                }
+            }
+            .header-right__promo{
+                flex-direction: column;
+                .header-right__promo-text {
+                    .header-promo__title{
+                        max-width: 100%;
+                        font-size: 35px;
+                    }
+                    .promo-recipe .recipe-item .recipe-item__text{
+                        max-width: 100%;
+                    }
+                }
+            }
+            .header-right__promo-form{
+                margin-left: 0;
+                .promo-form__cost{
+                    justify-content: space-around;
+                }
+                .promo-form__delivery{
+                    left: 38%;
+                }
+            }
+        }
+    }
+
+    .section-info{
+        padding-top: 40px;
+        .section-name{
+            padding-bottom: 50px;
+            &__title{
+                font-size: 40px;
+                margin-bottom: 12px;
+            }
+            &__description{
+                font-size: 16px;
+            }
+        }
+        .problems-container{
+            margin-left: 30px;
+            justify-content: center;
+            align-items: center;
+            .problem-item{
+                width: 50%;
+                margin-bottom: 30px;
+                &__image{
+                    width: 150px;
+                    height: 150px;
+                }
+                .problem-item__line{
+                    display: none;
+                }
+            }
+        }
+        .statistics-container {
+            padding: 40px 26px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header{
+        
+        .header-right {
+            .header-right__promo .header-right__promo-text .header-promo__title{
+                font-size: 33px;
+            }
+            .header-right__promo-form{
+                .promo-form__delivery{
+                    left: 38%;
+                }
+            }
+        }
+    }
+
+    .section-info{
+        .problems-container{
+            margin-left: 30px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; 
+            .problem-item{
+                width: 50%;
+                margin-bottom: 30px;
+            }
+        }
+        .statistics-container {
+            padding: 40px 26px;
+        }
+    }
+}
+
+@media screen and (max-width: 425px){
+    .header{
+        .header-right {
+            .header-right__advantages{
+                .advantages-item{
+                    &__text{
+                        font-size: 10px;
+                    }
+                }
+            }
+            .header-right__promo-form{
+                .promo-form__delivery{
+                    left: 28%;
+                }
+            }
+        }
+    }
+
+    .section-info{
+        .section-name{
+            padding-bottom: 30px;
+        }
+        .problems-container{
+            flex-direction: column;
+            .problem-item{
+                width: 100%;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px){
+    .header{
+        .header-right {
+            .header-right__promo-form{
+                .promo-form__delivery{
+                    left: 25%;
+                }
+            }
+        }
+    }
+
+    .section-info{
+        .section-name{
+            &__title{
+                font-size: 38px;
+                margin-bottom: 12px;
+            }
+            &__description{
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 320px){
+    .header{
+        .header-right {
+            .header-promo__title{
+                font-size: 30px;
+            }
+            .header-right__promo-text 
+            .promo-recipe 
+            .recipe-item 
+            .recipe-item__text{
+                font-size: 14px;
+                padding-left: 14px;
+            }
+            .header-right__promo-form{
+            
+                .promo-form__delivery{
+                    left: 20%;
+                }
+            }
+        }
+    }
+
+    .section-info{
+        .section-name{
+            &__title{
+                font-size: 30px;
+                margin-bottom: 12px;
+            }
+            &__description{
+                font-size: 14px;
+            }
+        }
+        .problems-container{
+            .problem-item{
+                &__image{
+                    width: 140px;
+                    height: 140px;
+                    margin-bottom: 16px;
+                    .problem-item__line{
+                        display: none;
+                    }
+                }
+                &__title{
+                    font-size: 16px;
+                }
+                &__description{
+                    font-size: 14px;
+                }
+            }  
+        }
+        .statistics-container .statistics-text{
+            font-size: 14px;
+        }
+    }
+}

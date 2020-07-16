@@ -1,8 +1,14 @@
 @import './fonts';
 @import './vars';
 
+// Grid
+@import './grid';
+
 // Pages
 @import './main';
+
+// Media Query
+@import './media';
 
 *{
     padding: 0;
@@ -13,5 +19,9 @@
 
 a{
     text-decoration: none;
+}
+
+body{
+    overflow-x: hidden;
 }
 

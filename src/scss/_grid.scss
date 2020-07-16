@@ -1,0 +1,72 @@
+// Main container
+.container{
+    max-width: 1440px;
+    padding: 0 40px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 999;
+}
+
+// Row container
+.row{
+    width: 100%;
+    display: flex;
+}
+
+// Row Vertical Alignment top
+.r-ai__top{
+    align-items: flex-start;
+}
+// Row Vertical Alignment center
+.r-ai__center{
+    align-items: center;
+}
+// Row Vertical Alignment bottom
+.r-ai__bottom{
+    align-items: flex-end;
+}
+
+
+// Row Horizontal Alignment top
+.r-jc__top{
+    justify-content: flex-start;
+}
+// Row Horizontal Alignment center
+.r-jc__center{
+    justify-content: center;
+}
+// Row Horizontal Alignment bottom
+.r-jc__bottom{
+    justify-content: flex-end;
+}
+// Row Horizontal Alignment space-between
+.r-jc__space-between{
+    justify-content: space-between;
+}
+// Row Horizontal Alignment space-around
+.r-jc__space-around{
+    justify-content: space-around;
+}
+
+
+// Media
+@media screen and (max-width: 576px){
+    .container{
+        max-width: 	540px;
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        max-width: 	720px;
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .container{
+        max-width: 	1140px;
+        padding: 0 20px;
+    }
+}
