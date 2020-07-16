@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Test assignment for Everad",
   "main": "index.js",
-  "repository": "https://github.com/obeycats18/everad.git",
+  "repository": "https://github.com/obeycats18/everad-test.git",
   "author": "kapishdima@gmail.com",
   "license": "MIT",
   "devDependencies": {
